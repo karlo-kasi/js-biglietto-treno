@@ -20,8 +20,6 @@
 let km = prompt("Quanti chilometri devi fare?", Math.floor(Math.random() * 100) + 20);
 let età = prompt("Quanti anni hai?",  Math.floor(Math.random() * 100) + 10);
 const euro = 0.21;
-const sconto1 = 20;
-const sconto2 = 40;
 
 km = parseFloat(km);
 età = parseInt(età);
