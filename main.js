@@ -50,10 +50,14 @@ let prezzoBigliettoSconto2 = (prezzoBiglietto * 0.6)
 
 console.log (prezzoBigliettoSconto1, prezzoBigliettoSconto2 )
 
+// 3 - Stampare il risultato in console 
+
 if (età < 18) {
-    console.log(`Ha diritto allo sconto del ${sconto1}%`)
+    alert(`${prezzoBigliettoSconto1.toFixed(2)} € è il prezzo del tuo biglietto`)
+} else if (età >= 65) {
+    alert(`${prezzoBigliettoSconto2.toFixed(2)} € è il prezzo del tuo biglietto`)
 } else {
-    console.log(`NON ha diritto allo sconto del ${sconto1}%`)
+    alert (`${prezzoBiglietto.toFixed(2)} € è il prezzo del tuo biglietto`)
 }
 
 
