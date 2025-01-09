@@ -41,12 +41,12 @@ let prezzoBiglietto = (km * euro);
 
 console.log (`${prezzoBiglietto.toFixed(2)} € è il prezzo del tuo biglietto`);
 
-//2.2 2.3 - verifica che se sotto i 18 - applicare uno sconto del 20%, sennò niente sconto
+//2.2 2.3 - verifica che se sotto i 18 e sopra 65 - applicare sconto 20% o 40%
 
 let prezzoBigliettoSconto1 = (prezzoBiglietto * 0.8)
 let prezzoBigliettoSconto2 = (prezzoBiglietto * 0.6)
 
-console.log (prezzoBigliettoSconto1, prezzoBigliettoSconto2 )
+console.log (prezzoBigliettoSconto1.toFixed(2) + " " + "€", prezzoBigliettoSconto2.toFixed(2) + " " + "€")
 
 // 3 - Stampare il risultato in console 
 
